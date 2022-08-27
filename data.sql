@@ -60,3 +60,42 @@ WHERE name = 'Charmander' or name = 'Squirtle' or name = 'Blossom';
 UPDATE animals 
 set owner_id = 5 
 WHERE name = 'Angemon' or name = 'Boarmon';
+
+/*Insert many to many related data */
+/* Vet data */
+INSERT INTO vets (name, age, date_of_graduation) VALUES 
+('William Tatcher', 45, TO_DATE('23/04/2000', 'DD/MM/YYYY')),
+('Maisy Smith', 26, TO_DATE('17/01/2019', 'DD/MM/YYYY')),
+('Stephanie Mendez', 64, TO_DATE('04/05/1981', 'DD/MM/YYYY')),
+('Jack Harkness', 38, TO_DATE('08/06/2008', 'DD/MM/YYYY'));
+
+/* Insert data into Bridge table (specialization) for vets and species data  */
+INSERT INTO specializations (vet_id, species_id) VALUES 
+(1, 1),
+(3, 1),
+(3, 2),
+(4, 2);
+
+/* Insert data into bridge table (visits) for animals and vets*/
+INSERT INTO visits (animal_id, vet_id, date_of_visit) VALUES
+(1, 1, TO_DATE('24/05/2020', 'DD/MM/YYYY')),
+(1, 3, TO_DATE('22/07/2020', 'DD/MM/YYYY')),
+(2, 4, TO_DATE('2/2/2021', 'DD/MM/YYYY')),
+(3, 2, TO_DATE('05/01/2020', 'DD/MM/YYYY')),
+(3, 2, TO_DATE('08/05/2020', 'DD/MM/YYYY')),
+(3, 2, TO_DATE('14/05/2020', 'DD/MM/YYYY')),
+(4, 3, TO_DATE('4/05/2021', 'DD/MM/YYYY')),
+(5, 4, TO_DATE('24/02/2021', 'DD/MM/YYYY')),
+(6, 2, TO_DATE('21/12/2019', 'DD/MM/YYYY')),
+(6, 1, TO_DATE('10/08/2020', 'DD/MM/YYYY')),
+(6, 2, TO_DATE('07/05/2021', 'DD/MM/YYYY')),
+(7, 2, TO_DATE('29/09/2019', 'DD/MM/YYYY')),
+(8, 3, TO_DATE('03/10/2020', 'DD/MM/YYYY')),
+(8, 4, TO_DATE('04/11/2020', 'DD/MM/YYYY')),
+(9, 2, TO_DATE('24/01/2019', 'DD/MM/YYYY')),
+(9, 2, TO_DATE('15/05/2019', 'DD/MM/YYYY')),
+(9, 2, TO_DATE('27/02/2020', 'DD/MM/YYYY')),
+(9, 2, TO_DATE('03/08/2020', 'DD/MM/YYYY')),
+(10, 3, TO_DATE('24/05/2020', 'DD/MM/YYYY')),
+(10, 1, TO_DATE('11/01/2021', 'DD/MM/YYYY'));
+
