@@ -121,4 +121,14 @@ FROM(
 JOIN species S ON RES.species_id = S.id
 GROUP BY RES.species_id, S.name ORDER BY count DESC LIMIT 1;
 
+explain analyze SELECT COUNT(*) FROM visits where animal_id = 4;
 
+-- Query analysis before performance tuning
+explain analyze SELECT COUNT(*) FROM visits where animal_id = 4;
+explain analyze SELECT * FROM visits where vet_id = 2;
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
+
+-- Query analysis after perfomance tuning
+explain analyze SELECT COUNT(*) FROM visits where animal_id = 4;
+explain analyze SELECT * FROM visits where vet_id = 2;
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
