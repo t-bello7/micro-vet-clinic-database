@@ -128,11 +128,6 @@ explain analyze SELECT COUNT(*) FROM visits where animal_id = 4;
 explain analyze SELECT * FROM visits where vet_id = 2;
 explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
 
--- Create index on columns that need perfomance tuning
-CREATE INDEX animal_id_index on visits(animal_id);
-CREATE INDEX vet_id_index on visits(vet_id); 
-CREATE INDEX email_id on owners(email);
-
 -- Query analysis after perfomance tuning
 explain analyze SELECT COUNT(*) FROM visits where animal_id = 4;
 explain analyze SELECT * FROM visits where vet_id = 2;
