@@ -23,8 +23,9 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 👤 **Author2**
 
-- GitHub: [@brainconnect93](https://github.com/tbello-7/brainconnect93)
-
+- GitHub: [@brainconnect93](https://github.com/brainconnect93)
+- Twitter: [@brainconnect0](https://twitter.com/brainconnect0)
+- LinkedIn: [Afolabi Akorede](https://linkedin.com/in/brainconnect93)
 
 ## 🤝 Contributing
 
