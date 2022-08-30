@@ -21,6 +21,12 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Twitter: [@__tbello](https://twitter.com/__tbello)
 - LinkedIn: [Oluwatomisin Bello](https://linkedin.com/in/tbello7)
 
+👤 **Author2**
+
+- GitHub: [@brainconnect93](https://github.com/brainconnect93)
+- Twitter: [@brainconnect0](https://twitter.com/brainconnect0)
+- LinkedIn: [Afolabi Akorede](https://linkedin.com/in/brainconnect93)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
