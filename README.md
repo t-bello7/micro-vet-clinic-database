@@ -20,6 +20,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - GitHub: [@tbello-7](https://github.com/tbello-7)
 - Twitter: [@__tbello](https://twitter.com/__tbello)
 - LinkedIn: [Oluwatomisin Bello](https://linkedin.com/in/tbello7)
+- Portfolio: [tbello in Tech](https://tbello.tech)
 
 ## 🤝 Contributing
 
