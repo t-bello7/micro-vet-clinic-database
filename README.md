@@ -11,7 +11,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 👤 **Author1**
 
-- GitHub: [@tbello-7](https://github.com/tbello-7)
+- GitHub: [@tbello-7](httpgits://github.com/tbello-7)
 - Twitter: [@__tbello](https://twitter.com/__tbello)
 - LinkedIn: [Oluwatomisin Bello](https://linkedin.com/in/tbello7)
 - Portfolio: [tbello in Tech](https://tbello.tech)
@@ -29,17 +29,13 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
 ## Show your support
-
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
+- Hat tip to the postgresql and microverse team
 - Inspiration
-- etc
 
 ## Resources To Use
 - https://pgwatch.com/
 ## 📝 License
-
 This project is [MIT](./MIT.md) licensed.
